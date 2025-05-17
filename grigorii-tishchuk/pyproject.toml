@@ -1,0 +1,19 @@
+[project]
+name = "grigorii-capstone"
+version = "0.1.0"
+description = "Grigorii's capstone project using Pandas, GCP, Airflow (DE project and Analysis of data)"
+authors = [
+    {name = "GregTish",email = "tishchuk167@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas (>=2.2.3,<3.0.0)",
+    "papermill (>=2.6.0,<3.0.0)",
+    "apache-airflow (>=3.0.1,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
